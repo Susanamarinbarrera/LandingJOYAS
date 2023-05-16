@@ -1,0 +1,196 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de la navegación */
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 40px 0;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-heading h2 {
+    font-size: 28px;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Estilos de los precios */
+  .pricing-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .pricing-card p {
+    margin: 10px 0;
+    color: #777;
+  }
+  
+  /* Estilos del formulario de contacto */
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos adicionales para joyería */
+  .jewelry-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .jewelry-heading h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #e74c3c;
+  }
+  
+  .jewelry-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .jewelry-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .jewelry-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .jewelry-item p {
+    color: #777;
+  }
+  
+  .jewelry-item a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .jewelry-item a:hover {
+    text-decoration: underline;
+  }
+
+  <h1>Responsive Vertical Banner with CSS</h1>
+  <aside class="responsive-banner">
+    <span class="circle-a"></span>
+    <span class="circle-b"></span>
+    <img src="https://es.pngtree.com/freebackground/elegant-background-blur-banner_351491.html" />
+    <div class="container-envelope">
+      
+      <div class="col-xs-12">
+        <p>Live Sites using our WordPress Themes</p>
+        <a target="_blank" href="https://es.pngtree.com/freebackground/elegant-background-blur-banner_351491.html" class="more-link">Get inspired</a>
+      </div>
+    </div>
+  </aside>
+  <div class="link-container">
+    <a target="_blank" href="https://es.pngtree.com/freebackground/elegant-background-blur-banner_351491.html" class="more-link">Visit the original article</a>
+  </div>
+  .responsive-banner {
+    margin: 80px auto;
+    width: 40%;
+    min-width: 230px;
+    max-width: 330px;
+    position: relative;
+    height: auto;
+    min-height: 300px;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, #D45BA1, #A784E0);
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  .container-envelope {
+    padding: 35px 15px;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .col-xs-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  
